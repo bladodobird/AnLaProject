@@ -16,15 +16,11 @@ public class ChangeScene : MonoBehaviour
         btnEnter01 = GameObject.Find("Button01").GetComponent<Button>();
         btnEnter02 = GameObject.Find("Button02").GetComponent<Button>();
         btnEnter03 = GameObject.Find("Button03").GetComponent<Button>();
-
-
         btnEnter06 = GameObject.Find("Button06").GetComponent<Button>();
 
         btnEnter01.onClick.AddListener(EnterFuc01);
         btnEnter02.onClick.AddListener(EnterFuc02);
         btnEnter03.onClick.AddListener(EnterFuc03);
-
-
         btnEnter06.onClick.AddListener(EnterFuc06);
     }
 
@@ -42,7 +38,6 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("fuc03");
     }
-
 
 
     private void EnterFuc06()

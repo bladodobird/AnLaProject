@@ -9,7 +9,7 @@ public class ImageInSlot : MonoBehaviour
        
     private void Awake()
     {
-        randomcard.instance.GetCardIsGetInformation(); // 确保数据已准备好
+        randomcard.instance.GetCardIsGetInformation();
 
         Show();
     }

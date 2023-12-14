@@ -8,12 +8,12 @@ public class justStartScenToMaim : MonoBehaviour
 
     private void Awake()
     {
-        enterMain = GameObject.Find("enterMain").GetComponent<Button>();
+        enterMain = GameObject.Find("enterStory").GetComponent<Button>();
         enterMain.onClick.AddListener(EnterMain);
     }
 
     private void EnterMain()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("SampleScene");
     }
 }

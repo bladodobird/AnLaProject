@@ -288,7 +288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: -447}
+  m_AnchoredPosition: {x: 35, y: -450}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1033586438
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u96A8\u610F\u9EDE\u64CA\u756B\u9762"
+  m_text: "\u96A8\u610F\u9EDE\u64CA\u756B\u9762\u7E7C\u7E8C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b725681815f65ee47a99ac3ebc09e624, type: 2}
   m_sharedMaterial: {fileID: -7236194458069523685, guid: b725681815f65ee47a99ac3ebc09e624, type: 2}
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 2003148489}
   - component: {fileID: 2003148488}
   m_Layer: 5
-  m_Name: enterMain
+  m_Name: enterStory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

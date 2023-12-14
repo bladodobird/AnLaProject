@@ -25,6 +25,7 @@ public class randomcard : MonoBehaviour
         imgpicture = GameObject.Find("圖片").GetComponent<Image>();
 
         GetRandompicture();
+
     }
 
     private void Update()
